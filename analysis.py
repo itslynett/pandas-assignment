@@ -1,0 +1,5 @@
+print("\nBasic Statistics:")
+print(df.describe())
+grouped = df.groupby('species').mean()
+print("\nGrouped by Species (Mean of Numerical Columns):")
+print(grouped)
